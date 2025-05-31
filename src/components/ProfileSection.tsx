@@ -169,6 +169,40 @@ export default function ProfileSection() {
             </div>
           </div>
         </div>
+
+        {/* About Section */}
+        <div className="mt-8 sm:mt-10 lg:mt-12">
+          <div className="bg-gray-50 rounded-lg p-6 sm:p-8">
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
+              About Me
+            </h3>
+            <div className="prose prose-gray max-w-none">
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Hi, I'm Amneet Kaur — your Calgary real estate partner.
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Buying or selling a home is more than just a transaction — it's
+                a major life moment, and I treat it with the care it deserves.
+                Whether you're searching for your first condo, upsizing for your
+                growing family, or investing in the future, I'll be by your side
+                to guide, support, and advocate for you.
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                I've spent years exploring Calgary's communities — understanding
+                not just the housing market, but the heart and energy of each
+                neighborhood. It's important to me that you don't just find a
+                property, but a place that truly feels like home.
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                My clients know me as someone who listens deeply, communicates
+                honestly, and follows through on every detail. I believe that
+                real estate should feel personal, not pressured. Every client I
+                work with becomes part of a journey we take together — and your
+                success genuinely matters to me.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
