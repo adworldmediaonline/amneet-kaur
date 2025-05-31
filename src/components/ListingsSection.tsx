@@ -50,7 +50,7 @@ export default function ListingsSection({
         <div className="text-center">
           <a
             href={redirectUrl}
-            className="inline-flex items-center px-8 py-3 bg-realtor-blue !text-white rounded-md hover:bg-blue-700 transition-colors font-medium"
+            className="inline-flex items-center px-8 py-3 bg-blue-600 !text-white rounded-md hover:bg-blue-700 transition-colors font-medium"
           >
             View All
           </a>

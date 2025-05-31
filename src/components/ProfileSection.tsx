@@ -86,7 +86,7 @@ export default function ProfileSection() {
               <div className="flex justify-center sm:justify-start">
                 <a
                   href={redirectUrl}
-                  className="inline-flex items-center px-4 sm:px-6 py-2 bg-realtor-blue !text-white rounded-md hover:bg-blue-700 transition-colors font-medium text-sm"
+                  className="inline-flex items-center px-4 sm:px-6 py-2 bg-blue-600 !text-white rounded-md hover:bg-blue-700 transition-colors font-medium text-sm"
                 >
                   <svg
                     className="w-4 h-4 mr-2"
@@ -153,7 +153,7 @@ export default function ProfileSection() {
               <div>
                 <a
                   href={redirectUrl}
-                  className="inline-flex items-center px-4 sm:px-6 py-2 bg-realtor-blue !text-white rounded-md hover:bg-blue-700 transition-colors font-medium w-full justify-center text-sm"
+                  className="inline-flex items-center px-4 sm:px-6 py-2 bg-blue-600 !text-white rounded-md hover:bg-blue-700 transition-colors font-medium w-full justify-center text-sm"
                 >
                   <svg
                     className="w-4 h-4 mr-2"

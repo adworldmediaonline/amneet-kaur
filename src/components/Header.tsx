@@ -8,16 +8,16 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-realtor-red text-white">
+    <header className="bg-blue-900 text-white">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-between px-4 py-3">
           <div className="flex items-center space-x-8">
             <a
               href={redirectUrl}
               className="flex items-center space-x-2"
-              aria-label="REALTOR.ca home"
+              aria-label="Amneet Kaur Real Estate"
             >
-              <img src="/images/logo.svg" alt="REALTOR.ca" className="h-12" />
+              <div className="text-xl font-bold">Amneet Kaur</div>
             </a>
 
             <nav
@@ -35,7 +35,7 @@ export default function Header() {
                   href={redirectUrl}
                   className="hover:opacity-80 transition-opacity flex items-center text-sm"
                 >
-                  Find a REALTOR®
+                  Find an Agent
                   <svg
                     className="ml-1 w-4 h-4"
                     fill="currentColor"
@@ -73,7 +73,7 @@ export default function Header() {
                   href={redirectUrl}
                   className="hover:opacity-80 transition-opacity flex items-center text-sm"
                 >
-                  Living Room Blog
+                  Blog
                   <svg
                     className="ml-1 w-4 h-4"
                     fill="currentColor"
@@ -113,7 +113,7 @@ export default function Header() {
                 href={redirectUrl}
                 className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
               >
-                <div className="bg-white text-realtor-red rounded-full w-8 h-8 flex items-center justify-center">
+                <div className="bg-white text-blue-900 rounded-full w-8 h-8 flex items-center justify-center">
                   <svg
                     className="w-5 h-5"
                     fill="currentColor"
@@ -130,7 +130,7 @@ export default function Header() {
               </a>
 
               <div className="flex items-center space-x-2">
-                <div className="bg-white text-realtor-red rounded-full w-6 h-6 flex items-center justify-center">
+                <div className="bg-white text-blue-900 rounded-full w-6 h-6 flex items-center justify-center">
                   <span className="text-xs font-bold">FR</span>
                 </div>
                 <span className="text-xs">FR</span>
@@ -138,7 +138,7 @@ export default function Header() {
             </div>
 
             <div className="flex items-center space-x-2">
-              <button className="p-2 hover:bg-red-700 rounded transition-colors">
+              <button className="p-2 hover:bg-blue-800 rounded transition-colors">
                 <svg
                   className="w-5 h-5"
                   fill="none"
@@ -153,7 +153,7 @@ export default function Header() {
                   />
                 </svg>
               </button>
-              <button className="p-2 relative hover:bg-red-700 rounded transition-colors">
+              <button className="p-2 relative hover:bg-blue-800 rounded transition-colors">
                 <svg
                   className="w-5 h-5"
                   fill="currentColor"
@@ -165,13 +165,13 @@ export default function Header() {
                     clipRule="evenodd"
                   />
                 </svg>
-                <span className="absolute -top-1 -right-1 bg-white text-realtor-red text-xs rounded-full w-4 h-4 flex items-center justify-center font-bold">
+                <span className="absolute -top-1 -right-1 bg-white text-blue-900 text-xs rounded-full w-4 h-4 flex items-center justify-center font-bold">
                   0
                 </span>
               </button>
 
               <button
-                className="lg:hidden p-2 hover:bg-red-700 rounded transition-colors"
+                className="lg:hidden p-2 hover:bg-blue-800 rounded transition-colors"
                 aria-label="Menu"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               >
@@ -195,40 +195,40 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden bg-realtor-red border-t border-red-600">
+          <div className="lg:hidden bg-blue-900 border-t border-blue-800">
             <div className="px-4 py-2 space-y-1">
               <a
                 href={redirectUrl}
-                className="block px-3 py-2 text-sm hover:bg-red-700 rounded transition-colors"
+                className="block px-3 py-2 text-sm hover:bg-blue-800 rounded transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Find a Home
               </a>
               <a
                 href={redirectUrl}
-                className="block px-3 py-2 text-sm hover:bg-red-700 rounded transition-colors"
+                className="block px-3 py-2 text-sm hover:bg-blue-800 rounded transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Find a REALTOR®
+                Find an Agent
               </a>
               <a
                 href={redirectUrl}
-                className="block px-3 py-2 text-sm hover:bg-red-700 rounded transition-colors"
+                className="block px-3 py-2 text-sm hover:bg-blue-800 rounded transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Mortgage Calculators
               </a>
               <a
                 href={redirectUrl}
-                className="block px-3 py-2 text-sm hover:bg-red-700 rounded transition-colors"
+                className="block px-3 py-2 text-sm hover:bg-blue-800 rounded transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Living Room Blog
+                Blog
               </a>
-              <div className="border-t border-red-600 mt-2 pt-2">
+              <div className="border-t border-blue-800 mt-2 pt-2">
                 <a
                   href={redirectUrl}
-                  className="block px-3 py-2 text-sm hover:bg-red-700 rounded transition-colors"
+                  className="block px-3 py-2 text-sm hover:bg-blue-800 rounded transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Sign in

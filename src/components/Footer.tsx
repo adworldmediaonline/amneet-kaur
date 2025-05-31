@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="font-semibold text-lg mb-4">Find a REALTOR®</h3>
+            <h3 className="font-semibold text-lg mb-4">Find an Agent</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
@@ -53,14 +53,14 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-lg mb-4">Living Room Blog</h3>
+            <h3 className="font-semibold text-lg mb-4">Real Estate Blog</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
                   href={redirectUrl}
                   className="hover:text-gray-300 transition-colors"
                 >
-                  About REALTOR.ca
+                  About Us
                 </a>
               </li>
               <li>
@@ -68,7 +68,7 @@ export default function Footer() {
                   href={redirectUrl}
                   className="hover:text-gray-300 transition-colors"
                 >
-                  REALTOR.ca DDP®
+                  Market Updates
                 </a>
               </li>
               <li>
@@ -84,7 +84,7 @@ export default function Footer() {
                   href={redirectUrl}
                   className="hover:text-gray-300 transition-colors"
                 >
-                  REALTOR® Code of Ethics
+                  Code of Ethics
                 </a>
               </li>
               <li>
@@ -92,7 +92,7 @@ export default function Footer() {
                   href={redirectUrl}
                   className="hover:text-gray-300 transition-colors"
                 >
-                  REALTOR® Care®
+                  Community Care
                 </a>
               </li>
             </ul>
@@ -148,9 +148,7 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-6 lg:space-y-0">
             <div>
-              <h4 className="font-semibold mb-4">
-                Download the REALTOR.ca app
-              </h4>
+              <h4 className="font-semibold mb-4">Download our Mobile App</h4>
               <div className="flex space-x-4">
                 <a href={redirectUrl} className="inline-flex items-center">
                   <img
@@ -235,33 +233,19 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 pt-8 mt-8">
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0 text-sm text-gray-400">
-            <div className="flex items-center space-x-2">
-              <img
-                src="/images/realtor-r-footer.svg"
-                alt="REALTOR"
-                className="h-6"
-              />
+            <div className="text-center lg:text-left">
               <span>
-                Trusted listings from REALTOR® Agents. The MLS® mark and
-                associated logos identify professional services rendered by
-                REALTOR® members of CREA to effect the purchase, sale and lease
-                of real estate as part of a cooperative selling system.
+                Trusted listings from professional real estate agents. All
+                property information is provided for general information
+                purposes only.
               </span>
             </div>
           </div>
 
-          <div className="mt-4 flex flex-col lg:flex-row justify-between items-center text-xs text-gray-500">
-            <div className="mb-4 lg:mb-0">
-              © 2024 REALTOR.ca Canada Inc. All rights reserved. The trademarks
-              REALTOR®, REALTORS® and the REALTOR® logo are controlled by CREA
-              and identify real estate professionals who are members of CREA.
-            </div>
-            <div className="flex items-center">
-              <img
-                src="/images/mls-logo-footer.svg"
-                alt="MLS Logo"
-                className="h-8"
-              />
+          <div className="mt-4 text-center text-xs text-gray-500">
+            <div>
+              © 2024 Amneet Kaur Real Estate. All rights reserved. Professional
+              real estate services in Calgary, Alberta.
             </div>
           </div>
         </div>

@@ -61,7 +61,7 @@ export default function PropertyCard({
 
       <div className="p-4">
         <div className="mb-3">
-          <h3 className="text-xl font-bold text-realtor-blue mb-1">{price}</h3>
+          <h3 className="text-xl font-bold text-blue-600 mb-1">{price}</h3>
           <p className="text-sm text-gray-600">{address}</p>
         </div>
 

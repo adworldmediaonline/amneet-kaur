@@ -4,7 +4,7 @@ export default function Breadcrumbs() {
 
   const breadcrumbItems = [
     { label: 'Home', href: redirectUrl },
-    { label: 'Find a REALTOR®', href: redirectUrl },
+    { label: 'Find an Agent', href: redirectUrl },
     { label: 'Canada', href: redirectUrl },
     { label: 'AB', href: redirectUrl },
     { label: 'Calgary', href: redirectUrl, current: true },
@@ -39,7 +39,7 @@ export default function Breadcrumbs() {
               ) : (
                 <a
                   href={item.href}
-                  className="text-realtor-blue hover:text-blue-800 transition-colors"
+                  className="text-blue-600 hover:text-blue-800 transition-colors"
                 >
                   {item.label}
                 </a>
