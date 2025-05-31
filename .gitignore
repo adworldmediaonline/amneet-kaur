@@ -13,6 +13,11 @@
 # testing
 /coverage
 
+# cursor rules
+.cursorrules
+.cursor
+.cursor*
+
 # next.js
 /.next/
 /out/
